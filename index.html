@@ -2,245 +2,326 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>businessreviews</title>
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/custom-grid.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/css/custom-media.css">
 </head>
 <body>
 <header>
     <div class="top-nav">
-        <div class="logo">
-            <a href="#"><img src="./assets/images/logo.png" alt=""></a>
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Compare</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
+        <div class="container">
+            <div class="mobile-burger">
+                <div class="mobile-burger-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="mobile-nav">
+                    <div class="mobile-nav-close-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Compare</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="logo">
+                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="nav-list">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Compare</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="header-banner">
         <div class="header-banner-slider owl-carousel owl-theme">
-            <div class="item">
-                <div class="slider-banner-text">
-                    <span>Reviews Ratings Comparisons</span>
-                    <p>Unbiased Reviews That Save You Time and Money</p>
-                </div>
-                <div class="slider-banner-img">
-                    <img src="./assets/images/slider-img.png" alt="">
+            <div class="item" style="background-image: url('./assets/images/slider-img.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="slider-banner-text">
+                                <span>Reviews Ratings Comparisons</span>
+                                <p>Unbiased Reviews That Save You Time and Money</p>
+                            </div>
+                        </div>
+                        <!--<div class="col-lg-7">
+                            <div class="slider-banner-img">
+                                <img src="./assets/images/slider-img.png" alt="">
+                            </div>
+                        </div>-->
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="slider-banner-text">
-                    <span>Reviews Ratings Comparisons</span>
-                    <p>Unbiased Reviews That Save You Time and Money</p>
-                </div>
-                <div class="slider-banner-img">
-                    <img src="./assets/images/slider-img.png" alt="">
+            <div class="item" style="background-image: url('./assets/images/slider-img.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="slider-banner-text">
+                                <span>Reviews Ratings Comparisons</span>
+                                <p>Unbiased Reviews That Save You Time and Money</p>
+                            </div>
+                        </div>
+                        <!--<div class="col-lg-7">
+                            <div class="slider-banner-img">
+                                <img src="./assets/images/slider-img.png" alt="">
+                            </div>
+                        </div>-->
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="slider-banner-text">
-                    <span>Reviews Ratings Comparisons</span>
-                    <p>Unbiased Reviews That Save You Time and Money</p>
-                </div>
-                <div class="slider-banner-img">
-                    <img src="./assets/images/slider-img.png" alt="">
+            <div class="item" style="background-image: url('./assets/images/slider-img.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="slider-banner-text">
+                                <span>Reviews Ratings Comparisons</span>
+                                <p>Unbiased Reviews That Save You Time and Money</p>
+                            </div>
+                        </div>
+                        <!--<div class="col-lg-7">
+                            <div class="slider-banner-img">
+                                <img src="./assets/images/slider-img.png" alt="">
+                            </div>
+                        </div>-->
+                    </div>
                 </div>
             </div>
         </div>
         <div class="header-search">
             <form>
-                <input type="text" placeholder="Search for a company">
+                <input class="form-control" type="text" placeholder="Search for a company">
                 <button>search</button>
             </form>
         </div>
     </div>
 </header>
 
-<div id="main">
-    <section>
-        <div class="services">
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/bank.png')">
+<section class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/bank.png')">
+                        </div>
                     </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Merchant Account Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/smartphone.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Mobile Payments Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/pos.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best POS Software Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/rest.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Restaurant POS Software Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/bag.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Shopping Cart Software Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/calc.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Accounting Software Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/money.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Small Business Loan Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner" style="background-image: url('./assets/images/icons/cc.png')">
-                        <img src="./assets/images/icons/cc.png" alt="">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Business Line of Credit Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/cash.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Merchant Cash Advance Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/editor.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Website Builder Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/note.png')">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Inventory Software Reviews</span>
-                </div>
-            </div>
-            <div class="services-item">
-                <div class="services-item_icon">
-                    <div class="services-item_icon_inner"
-                         style="background-image: url('./assets/images/icons/invoice.png')">
-                        <img src="./assets/images/icons/invoice.png" alt="">
-                    </div>
-                </div>
-                <div class="services-item_desc">
-                    <span>Best Invoicing Software Reviews</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="latest-news-section">
-        <div class="latest-news-title">
-            <span>latest news</span>
-        </div>
-        <div class="latest-news-items-wrapper">
-            <div class="latest-news-item">
-                <div class="latest-news-img" style="background-image: url('./assets/images/news-bgr/n-1.png')"></div>
-                <div class="latest-news-item-body">
-                    <div class="latest-news-item-title">
-                        <h3>The Complete Guide to Credit Card Processing Rates & Fees</h3>
-                    </div>
-                    <div class="latest-news-item-text">
-                    <span>
-                        Credit card processing fees are extensive,
-                        complicated, and somewhat overwhelming. Nevertheless,
-                        you have to pay them if you want to process credit cards
-                        through your business. Rather than paying these charges blindly,
-                        you might as well make an...
-                    </span>
-                    </div>
-                    <div class="latest-news-item-btn">
-                        <a href="#">load more</a>
+                    <div class="services-item_desc">
+                        <span>Best Merchant Account Reviews</span>
                     </div>
                 </div>
             </div>
-            <div class="latest-news-item">
-                <div class="latest-news-img" style="background-image: url('./assets/images/news-bgr/n-2.png')"></div>
-                <div class="latest-news-item-body">
-                    <div class="latest-news-item-title">
-                        <h3>The Complete Guide to Credit Card Processing Rates & Fees</h3>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/smartphone.png')">
+                        </div>
                     </div>
-                    <div class="latest-news-item-text">
-                    <span>
-                        Credit card processing fees are extensive,
-                        complicated, and somewhat overwhelming. Nevertheless,
-                        you have to pay them if you want to process credit cards
-                        through your business. Rather than paying these charges blindly,
-                        you might as well make an...
-                    </span>
+                    <div class="services-item_desc">
+                        <span>Best Mobile Payments Reviews</span>
                     </div>
-                    <div class="latest-news-item-btn">
-                        <a href="#">load more</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/pos.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best POS Software Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/rest.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Restaurant POS Software Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/bag.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Shopping Cart Software Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/calc.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Accounting Software Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/money.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Small Business Loan Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/cc.png')">
+                            <img src="./assets/images/icons/cc.png" alt="">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Business Line of Credit Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/cash.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Merchant Cash Advance Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/editor.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Website Builder Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/note.png')">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Inventory Software Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-item">
+                    <div class="services-item_icon">
+                        <div class="services-item_icon_inner"
+                             style="background-image: url('./assets/images/icons/invoice.png')">
+                            <img src="./assets/images/icons/invoice.png" alt="">
+                        </div>
+                    </div>
+                    <div class="services-item_desc">
+                        <span>Best Invoicing Software Reviews</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 
+<section class="latest-news-section">
+    <div class="latest-news-title">
+        <span>latest news</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/news-bgr/n-1.png" alt="Card image cap">
+                    <div class="card-body latest-news-item-body">
+                        <h5 class="card-title latest-news-item-title">The Complete Guide to Credit Card Processing Rates
+                            & Fees</h5>
+                        <p class="card-text latest-news-item-text">
+                            Credit card processing fees are extensive,
+                            complicated, and somewhat overwhelming. Nevertheless,
+                            you have to pay them if you want to process credit cards
+                            through your business. Rather than paying these charges blindly,
+                            you might as well make an
+                        </p>
+                        <div class="latest-news-item-btn">
+                            <a href="#">load more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/news-bgr/n-2.png" alt="Card image cap">
+                    <div class="card-body latest-news-item-body">
+                        <h5 class="card-title latest-news-item-title">The 5 Best Small Business Credit Card Processin
+                            The 5 Best Small Business Credit Card Processin</h5>
+                        <p class="card-text latest-news-item-text">
+                            Unless your small business consists of running a lemonade stand on the corner of your
+                            street, sooner or later you're going
+                            Unless your small business consists of running a lemonade stand on the corner of your
+                            street, sooner or later you're going
+                        </p>
+                        <div class="latest-news-item-btn">
+                            <a href="#">load more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="partners">
-    <div class="partners-main">
+    <div class="container">
         <div class="partners-title">
             <span>our partners</span>
         </div>
@@ -268,29 +349,28 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="blog-posts-main">
-        <div class="blog-post-title">
-            <span>Blog Posts</span>
-        </div>
-        <div class="blog-post-items-wrapper">
-            <div class="blog-post-item">
-                <div class="blog-post-item-img"
-                     style="background-image: url('./assets/images/bl-p-bgr/bl-1.png')"></div>
-                <div class="blog-post-item-body">
-                    <div class="blog-post-item-date">
-                        <div class="date-icon">
-                            <img src="./assets/images/icons/cal.png" alt="">
+
+<section class="blog-post">
+    <div class="blog-post-title">
+        <span>Blog Posts</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/bl-p-bgr/bl-1.png" alt="Card image cap">
+                    <div class="card-body latest-news-item-body">
+                        <div class="blog-post-item-date">
+                            <div class="date-icon">
+                                <img src="./assets/images/icons/cal.png" alt="">
+                            </div>
+                            <div class="date-value">
+                                <p>21 January 2016</p>
+                            </div>
                         </div>
-                        <div class="date-value">
-                            <p>21 January 2016</p>
-                        </div>
-                    </div>
-                    <div class="blog-post-item-title">
-                        <h3>The Complete Guide to Credit Card Processing Rates & Fees</h3>
-                    </div>
-                    <div class="blog-post-item-text">
-                        <p>
+                        <h5 class="card-title latest-news-item-title blog-post-item-title ">The Complete Guide to Credit Card Processing Rates
+                            & Fees</h5>
+                        <p class="card-text latest-news-item-text">
                             Credit card processing fees are extensive, complicated, and somewhat overwhelming.
                             Nevertheless, you have to pay them if you want to process credit cards through your
                             business. Rather than paying these charges blindly, you might as well make an Credit card
@@ -301,54 +381,43 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-post-item">
-                <div class="blog-post-item-img"
-                     style="background-image: url('./assets/images/bl-p-bgr/bl-2.png')"></div>
-                <div class="blog-post-item-body">
-                    <div class="blog-post-item-date">
-                        <div class="date-icon">
-                            <img src="./assets/images/icons/cal.png" alt="">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/bl-p-bgr/bl-2.png" alt="Card image cap">
+                    <div class="card-body latest-news-item-body">
+                        <div class="blog-post-item-date">
+                            <div class="date-icon">
+                                <img src="./assets/images/icons/cal.png" alt="">
+                            </div>
+                            <div class="date-value">
+                                <p>21 January 2016</p>
+                            </div>
                         </div>
-                        <div class="date-value">
-                            <p>21 January 2016</p>
-                        </div>
-                    </div>
-                    <div class="blog-post-item-title">
-                        <h3>The 5 Best Small Business Credit Card Processing Companies</h3>
-                    </div>
-                    <div class="blog-post-item-text">
-                        <p>
+                        <h5 class="card-title latest-news-item-title blog-post-item-title">The 5 Best Small Business Credit Card Processing
+                            Companies</h5>
+                        <p class="card-text latest-news-item-text">
                             Unless your small business consists of running a lemonade stand on the corner of your
-                            street, sooner or later you're going to need to accept credit and debit cards as payment in
-                            order to compete in today's marketplace. Customers are increasingly Unless your small
-                            business consists of running a lemonade stand on the corner of your
                             street, sooner or later you're going to need to accept credit and debit cards as payment in
                             order to compete in today's marketplace. Customers are increasingly
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="blog-post-item">
-                <div class="blog-post-item-img"
-                     style="background-image: url('./assets/images/bl-p-bgr/bl-3.png')"></div>
-                <div class="blog-post-item-body">
-                    <div class="blog-post-item-date">
-                        <div class="date-icon">
-                            <img src="./assets/images/icons/cal.png" alt="">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/bl-p-bgr/bl-3.png" alt="Card image cap">
+                    <div class="card-body latest-news-item-body">
+                        <div class="blog-post-item-date">
+                            <div class="date-icon">
+                                <img src="./assets/images/icons/cal.png" alt="">
+                            </div>
+                            <div class="date-value">
+                                <p>21 January 2016</p>
+                            </div>
                         </div>
-                        <div class="date-value">
-                            <p>21 January 2016</p>
-                        </div>
-                    </div>
-                    <div class="blog-post-item-title">
-                        <h3>Top 7 Square Alternatives</h3>
-                    </div>
-                    <div class="blog-post-item-text">
-                        <p>
+                        <h5 class="card-title latest-news-item-title blog-post-item-title">Top 7 Square Alternatives</h5>
+                        <p class="card-text latest-news-item-text">
                             Unless your small business consists of running a lemonade stand on the corner of your
-                            street, sooner or later you're going to need to accept credit and debit cards as payment in
-                            order to compete in today's marketplace. Customers are increasingly Unless your small
-                            business consists of running a lemonade stand on the corner of your
                             street, sooner or later you're going to need to accept credit and debit cards as payment in
                             order to compete in today's marketplace. Customers are increasingly
                         </p>
@@ -361,6 +430,7 @@
         </div>
     </div>
 </section>
+
 <section class="contact-us-section">
     <form action="" method="post">
         <input type="text" placeholder="Name">
@@ -372,88 +442,107 @@
         <button type="submit">submit</button>
     </div>
 </section>
+
 <footer>
     <div class="footer-main">
-        <div class="footer-item footer-about">
-            <div class="footer-item-title">
-                <h3>about us</h3>
-            </div>
-            <div class="footer-about-img">
-                <img src="./assets/images/icons/footer-b.png" alt="">
-            </div>
-            <div class="footer-about-text">
-                <p>
-                    Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore
-                </p>
-            </div>
-        </div>
-        <div class="footer-item">
-            <div class="footer-item-title">
-                <h3>latest tweets</h3>
-            </div>
-            <div class="footer-about-text">
-                <ul>
-                    <li>
-                        <div class="tweet-icon">
-                            <img src="./assets/images/icons/twitter.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-item footer-about">
+                        <div class="footer-item-title">
+                            <h3>about us</h3>
                         </div>
-                        <div class="tweet-text">
-                            <p><a href="#">@Loremipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor ut dolore magna aliqua. </p>
+                        <div class="footer-about-img">
+                            <img src="./assets/images/icons/footer-b.png" alt="">
                         </div>
-                    </li>
-                    <li>
-                        <div class="tweet-icon">
-                            <img src="./assets/images/icons/twitter.png" alt="">
+                        <div class="footer-about-text">
+                            <p>
+                                Ut enim ad minim veniam, quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor
+                                in reprehenderit in voluptate velit esse cillum dolore
+                            </p>
                         </div>
-                        <div class="tweet-text">
-                            <p><a href="#">@minimveniam</a>quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                                omnis iste</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-item">
+                        <div class="footer-item-title">
+                            <h3>latest tweets</h3>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-item">
-            <div class="footer-item-title">
-                <h3>Newsletter SignUp</h3>
-            </div>
-            <div class="footer-about-text">
-                <p>Sign Up for our newsletter and stay informed about or new products and speciall offers!</p>
-            </div>
-            <div class="footer-about-subscribe">
-                <form action="">
-                    <input type="text" placeholder="Email address">
-                    <button type="submit">submit</button>
-                </form>
+                        <div class="footer-about-text">
+                            <ul>
+                                <li>
+                                    <div class="tweet-icon">
+                                        <img src="./assets/images/icons/twitter.png" alt="">
+                                    </div>
+                                    <div class="tweet-text">
+                                        <p><a href="#">@Loremipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor ut dolore magna aliqua. </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tweet-icon">
+                                        <img src="./assets/images/icons/twitter.png" alt="">
+                                    </div>
+                                    <div class="tweet-text">
+                                        <p><a href="#">@minimveniam</a>quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                            sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                                            omnis iste</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-item">
+                        <div class="footer-item-title">
+                            <h3>Newsletter SignUp</h3>
+                        </div>
+                        <div class="footer-about-text">
+                            <p>Sign Up for our newsletter and stay informed about or new products and speciall offers!</p>
+                        </div>
+                        <div class="footer-about-subscribe">
+                            <form action="">
+                                <input type="text" placeholder="Email address">
+                                <button type="submit">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="mini-footer">
-        <div class="mini-footer-main">
-            <div class="mini-footer-list">
-                <ul>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
-            </div>
-            <div class="mini-footer-logo">
-                <a href="#"><img src="./assets/images/logo.png" alt=""></a>
-            </div>
-            <div class="mini-footer-socials">
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
-                </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mini-footer-item mini-footer-list">
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mini-footer-item mini-footer-logo">
+                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mini-footer-item mini-footer-socials">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,80 @@
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .mobile-nav .logo {
+        width: 70%!important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .header-search, .contact-us-section form{
+        width: 300px;
+    }
+
+    .header-search form button{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .mobile-nav .logo {
+        width: 40%;
+    }
+
+    .header-banner .header-banner-slider .item{
+        background-image: unset!important;
+    }
+
+    .header-banner .header-banner-slider .item .slider-banner-text span{
+        line-height: unset;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .header-banner .header-banner-slider .item .slider-banner-text p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-banner .header-banner-slider .owl-nav button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-banner .header-banner-slider .owl-nav button img{
+        width: 30%;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .mobile-burger{
+        display: block;
+        color: #ffffff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    .mobile-burger-btn {
+        font-size: 25px;
+    }
+
+    .mobile-nav-close-btn{
+        font-size: 25px;
+    }
+
+    .footer-item{
+        margin-bottom: 40px;
+    }
+
+    .mini-footer-item{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .mini-footer-socials{
+        float: unset;
+    }
+}
